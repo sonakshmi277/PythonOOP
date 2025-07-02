@@ -1,7 +1,8 @@
 class BankAccount:
-    def __init__(self, owner, balance):
-        self.owner = owner           # Public attribute
-        self.__balance = balance     # Private attribute
+    def __init__(self, owner, balance,pt):
+        self.owner = owner           # Public attribute  Accessible from anywhere.
+        self.__balance = balance     # Private attribute  Accessible only within the class.
+        self._pt=pt                 #protected attribute  Accessible within the class and its subclasses.
 
     # Public method to display account info
     def show_account(self):
