@@ -20,7 +20,6 @@ lab=Labrador("Buddy")
 lab.display_name()
 lab.sound()
 
-guide_dog=GuideDog("Max")
 guide_dog = GuideDog("Max")
 guide_dog.display_name()
 guide_dog.guide()

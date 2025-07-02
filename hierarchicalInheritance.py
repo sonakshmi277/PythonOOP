@@ -14,9 +14,10 @@ class M3(Animal):
         super().__init__(name)
         print("Hiiiiiii")
         
-
-obj=M3("Kirmara")
-print(obj.name)
-
+print(M2.mro())
 obj2=M2("Bheem")
 print(obj2.name)
+print(" ")
+print(M3.mro())
+obj=M3("Kirmara")
+print(obj.name)
